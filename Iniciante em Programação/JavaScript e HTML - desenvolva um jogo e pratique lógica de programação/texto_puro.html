@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+A convenção que usaremos para criar nosso programa é adotar letras minúsculas e não usar acentos e, claro, usar a extensão .html.
+<br>
+Outro ponto importante é que toda alteração feita no arquivo .html deve ser salva e, além disso, o navegador precisa recarregar a página para que a última alteração do arquivo entre em vigor.
+<h1>Usando JavaScript pela primeira vez</h1>
+<script>
+    function pulaLinha() {
+        document.write("<br>")
+        document.write("<br>")
+    }
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+    let message = "Eu nunca mais vou dormir"
+    alert(message)
+
+    mostra("<h1>NANI</h1> deska <big>omaeua</big>")
+    document.write("Flávio nasceu em " + (2016 - 39) + "<br>")
+    pulaLinha()
+    document.write("Joaquim nasceu em " + (2016 - 20) + "<br>")
+    pulaLinha()
+    document.write("Barney nasceu em " + (2016 - 40) + "<br>")
+
+    mostra("UAU um prompt")
+    let num1 = parseInt(prompt("Digite o primeiro número"))
+    let num2 = parseInt(prompt("Digite o primeiro número"))
+    mostra("Resultado = " + (num1 + num2))
+
+    if (num1 > 10) {
+        mostra("O" + num1 + " é maior que 10")
+    } else {
+        mostra("O" + num1 + " é menor que 10")
+    }
+
+    let num3 = 2
+    while (num3 < 10) {
+        mostra(num3 + " é menor que 10")
+        num3 += 1
+    }
+
+    let idade = NaN
+    while( isNaN(idade) ) {
+        idade = parseInt(prompt("Digite sua idade"))
+        if (isNaN(idade) == false) {
+            alert("é número")
+        }
+    }
+
+    for (let i = 0; i < 10; i++) {
+        mostra(i)
+        mostra("Tu é corno")
+    }
+
+    var resposta = ""; // ainda não tem a resposta
+    while(true) {
+        resposta = prompt("Qual é seu nome?")
+        if( resposta == "SAIR") {
+            break
+        }
+    }
+    mostra("FIM")
+</script>
+</body>
+</html>

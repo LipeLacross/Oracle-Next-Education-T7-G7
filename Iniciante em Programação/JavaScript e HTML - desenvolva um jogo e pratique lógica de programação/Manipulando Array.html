@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input/>
+<button>Compare com o meu segredo</button>
+
+<script>
+  function sorteiaNumero() {
+    let numeroSorteado = Math.floor(Math.random() * 11)
+    return numeroSorteado
+  }
+  function sorteiaLista(tamanhoLista) {
+    let listaDoSorteio = []
+    for(let i = 0; i < tamanhoLista; i++){
+      let numeroDoSorteio = sorteiaNumero()
+      for (let a = 0; a < listaDoSorteio.length; a++)
+        while (numeroDoSorteio == listaDoSorteio[a]) {
+          numeroDoSorteio = sorteiaNumero()
+        }
+      listaDoSorteio.push(numeroDoSorteio)
+    }
+      return listaDoSorteio
+  }
+
+  listaSorteada = sorteiaLista(5)
+  console.log(listaSorteada)
+
+  let input = document.querySelector("input")
+  input.focus()
+  function verifica() {
+    let achou = false
+
+    for(let posicao = 0; posicao < listaSorteada.length; posicao++) {
+      if(input.value == listaSorteada[posicao]) {
+
+        alert("Você ACERTOU!")
+        achou = true
+        break
+      }
+    }
+    if (achou == false) {
+      alert("Você errou!")
+    }
+
+    input.value = ""
+    input.focus()
+
+  }
+
+  let button = document.querySelector("button")
+
+  button.onclick = verifica
+
+</script>
+</body>
+</html>
