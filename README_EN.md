@@ -1,101 +1,85 @@
-## 🌐 [English Version of README](README_EN.md)
+## 🌐 [Versão em Português do README](README.md)
 
-# Organo
+# Oracle Next Education (ONE) - Group 7 (G7)
 
-Organo is an application developed in React that allows the creation and organization of employee cards in different teams.
+This repository contains the materials and projects of the **Oracle Next Education (ONE)** program, Group 7 (G7). ONE is a learning program offering training in software development, agile methodologies, entrepreneurship, and interpersonal skills.
 
 ## 🔨 Project Features
 
-- Add employees to specific teams.
-- Display teams with custom colors.
-- Responsive and user-friendly interface.
+- Teaching programming concepts with JavaScript, HTML, and CSS.
+- Development of practical projects, such as games, dynamic and responsive web pages.
+- Introduction to the React framework and its practical applications.
+- Implementation of accessibility and semantic practices in Front-End projects.
+- Application of agile methodologies for project management.
 
 ### Visual Example of the Project
 
-![chrome-capture-2024-12-21](https://github.com/user-attachments/assets/91d47dad-689f-4278-a736-3252c64265ae)
+This repository includes various projects and materials covering the following themes:
 
-## ✔️ Technologies Used
+- Creating a Pong game with JavaScript.
+- Developing responsive pages with HTML and CSS.
+- Consuming APIs and handling data in JavaScript.
+- Styling React components with Styled Components.
+- Managing global states with React Context API.
 
-- **React** for creating components and state management.
-- **CSS** for custom styling.
-- **HTML** for basic structure.
-- **JavaScript (ES6+)** for logic and functionality.
+## ✔️ Techniques and Technologies Used
+
+- **Languages**: HTML5, CSS3, JavaScript.
+- **Frameworks and Libraries**: React, Styled Components.
+- **Tools**: Git, GitHub.
+- **Practices**: Responsive Design, Web Accessibility, Agile Methodologies.
 
 ## 📁 Project Structure
 
-- **public/**
-    - favicon.ico: Site icon.
-    - index.html: Main HTML file.
-    - manifest.json: App metadata for browsers and PWA.
-    - robots.txt: File for crawler directions.
-    - **images/**
-        - banner.png: Main site banner.
-        - logo192.png: High-resolution logo.
-        - logo512.png: Larger logo for devices.
+Below is the general structure of the repository and its main contents:
 
-- **src/**
-    - App.js: Main component integrating others.
-    - index.js: Entry point of the project.
-    - **components/**
-        - **Banner/**: Component for the main banner.
-        - **Button/**: Reusable button component.
-        - **TextField/**: Text input field component.
-        - **Employee/**: Component displaying an employee's information.
-        - **Form/**: Form to add new employees.
-        - **DropdownList/**: Component for option selection.
-        - **Footer/**: Site footer.
-        - **Team/**: Component organizing the employee cards.
+- **Entrepreneurship, Agility, and Career Leadership G7 - ONE/**
+    - `slide-curso-gestao-agil.pdf`: Presentation on agile management concepts.
 
-## 🛠️ Open and Run the Project
+- **Selection Phase Group 7 of ONE - Oracle Next Education/**
+    - Files related to the selection phase, such as templates and glossary.
 
-To run the project locally, follow these steps:
+- **Front End G7 - ONE/**
+    - **ChatGPT and JavaScript Build the Pong Game/**
+        - `Sprites.zip`: Graphic resources for the game.
+    - **Generative AI in Front-End/**
+        - Files for lessons on accessibility and semantics in Front-End.
+    - **JavaScript consuming and processing data from an API/**
+        - Presentations and code from lessons on API consumption.
+    - **JavaScript manipulating elements in the DOM/**
+        - Projects on DOM element manipulation.
+    - **JavaScript for Web Create dynamic pages/**
+        - Resources and projects for creating dynamic pages with JavaScript.
 
-1. **Make sure Node.js is installed**:
-    - [Node.js](https://nodejs.org/) is required to run the project. You can check if it's already installed by running:
+- **Programming Beginner/**
+    - **Git and GitHub sharing and collaborating on projects/**
+        - Initial projects for using Git and GitHub.
+    - **HTML and CSS Classes, positioning, and Flexbox/**
+        - Resources and lessons on positioning and Flexbox.
+    - **JavaScript and HTML - practice logic with drawings, animations, and a game/**
+        - Practical projects using canvas for animations and drawings.
 
-```bash
-node -v
-```
+- **React G7 - ONE/**
+    - **React how components work/**
+        - Introductory projects to the functioning of React components.
+    - **React style components with Styled Components/**
+        - Projects exploring the styling of components in React.
+    - **React manage global states with Context API/**
+        - Lessons on state management in React.
 
-- If it's not installed, download and install the recommended version.
+- **LICENSE**: Project license.
+- **README.md**: Portuguese version of the README.
+- **README_EN.md**: This file.
 
-2. **Clone the Repository**:
-    - Copy the repository URL and run the following command in your terminal:
+## 🛠️ How to open and run the project
 
-```bash
-git clone <REPOSITORY_URL>
-```
+The files in this repository are course materials and do not require specific setup to run. To view the projects:
 
-3. **Install Dependencies**:
-    - Navigate to the project folder and run:
+1. Open the `.html` files directly in the browser for HTML and JavaScript projects.
+2. Extract the `.zip` files to access lesson materials and exercises.
 
-```bash
-npm install
-```
-
-4. **Start the Development Server**:
-    - To run the project, use the command:
-
-```bash
-npm start
-```
-
-- The project will be available at [http://localhost:3000](http://localhost:3000).
+For more information or instructions, consult the course material or contact the ONE program support team.
 
 ## 🌐 Deploy
 
-To deploy the project, follow these steps:
-
-1. **Build the project for production**:
-
-```bash
-npm run build
-```
-
-2. **Host the generated files**:
-    - The files will be generated in the `build/` folder. You can host them on services like [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/), or [GitHub Pages](https://pages.github.com/).
-
-3. **Configure the server**:
-    - Ensure the server is configured to serve the `index.html` file for all routes.
-```
-
+This repository contains learning materials and does not include an integrated deploy system. Use the files as reference or a starting point for future projects.
